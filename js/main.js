@@ -5,7 +5,7 @@ function getRandomInteger(min, max) {
   if (min >= 0 && max >= 0 && max > min) {
     return randomInteger;
   }
-    console.log('Что-то пошло не так');
+  console.log('Что-то пошло не так');
 }
 
 console.log(getRandomInteger(22, 99));
@@ -18,7 +18,7 @@ function getRandomFractional(min, max) {
   if (min >= 0 && max >= 0 && max > min) {
     return randomFractional;
   }
-    console.log('Что-то пошло не так');
+  console.log('Что-то пошло не так');
 }
 
 console.log(getRandomFractional(4, 73));
